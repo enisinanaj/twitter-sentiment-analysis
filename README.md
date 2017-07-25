@@ -9,3 +9,20 @@ Mostly I just wanted to make a web app that could have lame references to Eddie 
 
 
 More details of the experiment are written up here: http://automateddeveloper.blogspot.co.uk/2016/02/sentiment-analysis-of-stock-tweets.html
+
+## Run
+
+### Install Redis
+
+`brew install redis`
+
+### Run redis
+
+`redis-server`
+
+### Register a new app on Twitter and obtain a secret key and a api key
+
+### Configuration
+
+Open *application.properties.bak* and insert your twitter app keys. Then rename it to *application.properties*.
+The file is located in */src/main/resources/application.properties.bak*
